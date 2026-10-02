@@ -70,3 +70,20 @@ body {
     max-width: 900px;
     line-height: 1.6;
 }
+
+.Movie-Main-Text {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.Movie-Main-Text h1 {
+    font-size: clamp(32px, 5vw, 64px);
+    margin-bottom: 10px;
+}
+
+
